@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginners - Yoga Hub</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        .videos-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .video-container {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .video-container:hover {
+            transform: scale(1.05);
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+
+        .video-details {
+            text-align: center;
+            flex: 1 1 calc(33.333% - 20px);
+        }
+
+        .video-details p {
+            margin: 5px 0;
+        }
+
+        .star-rating {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .star-rating i {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Peaceful Poses Logo">
+            </div>
+            <div class="nav-buttons">
+                <div class="dropdown">
+                    <button class="nav-button">Practice</button>
+                    <div class="dropdown-content">
+                        <a href="#classes">Classes</a>
+                        <a href="#meditations">Meditations</a>
+                        <a href="#challenges">Challenges</a>
+                        <a href="#programs">Programs</a>
+                        <a href="#asana-labs">Asana Labs</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="nav-button">Basics</button>
+                    <div class="dropdown-content">
+                        <a href="#tutorials">Tutorials</a>
+                        <a href="#beginners">For Beginners</a>
+                        <a href="#breathings">Breathing Techniques</a>
+                    </div>
+                </div>
+                  <button>Search</button>
+                </div>
+                
+        
+        </nav>
+    </header>
+        <section class="video-gallery">
+            <h1 class="animate__animated animate__fadeInUp">Beginners Yoga Videos</h1>
+            <div class="videos-grid">
+                <!-- Video 1 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/vsw8_8ANJlc" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 1: Yoga Video for Beginners</p>
+                        <p>Duration: 20:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 2 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/yI_Ktuh5utc" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 2: Yoga Video for Beginners</p>
+                        <p>Duration: 22:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 3 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/_375Qnt2B4U" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 3: Yoga Video for Beginners</p>
+                        <p>Duration: 25:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 4 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/uD8C5LgjWGw" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 4: Yoga Video for Beginners</p>
+                        <p>Duration: 30:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 5 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/TUkuQuUtstk" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 5: Yoga Video for Beginners</p>
+                        <p>Duration: 20:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 6 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/Ja9IOf1HwmU" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 6: Yoga Video for Beginners</p>
+                        <p>Duration: 25:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 7 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/6wzsh9xrHZE" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 7: Yoga Video for Beginners</p>
+                        <p>Duration: 28:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 8 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/PA8IsDZN_Dw" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 8: Yoga Video for Beginners</p>
+                        <p>Duration: 22:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 9 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/GZH0hhuft-s" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 9: Yoga Video for Beginners</p>
+                        <p>Duration: 26:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 10 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/tFAGim9C_EU" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 10: Yoga Video for Beginners</p>
+                        <p>Duration: 24:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 11 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/ePoHp_xXEjE" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 11: Yoga Video for Beginners</p>
+                        <p>Duration: 27:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 12 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/EfY__1LqmdE" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 12: Yoga Video for Beginners</p>
+                        <p>Duration: 29:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 13 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/Q_-S72NjHjg" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 13: Yoga Video for Beginners</p>
+                        <p>Duration: 21:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 14 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/CIbLodMTGE4" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 14: Yoga Video for Beginners</p>
+                        <p>Duration: 23:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 16 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/QThtxGklmDw" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 16: Yoga Video for Beginners</p>
+                        <p>Duration: 26:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 17 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/11zAAW8EJBQ" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 17: Yoga Video for Beginners</p>
+                        <p>Duration: 27:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 18 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/y9cBHh34jGk" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 18: Yoga Video for Beginners</p>
+                        <p>Duration: 25:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 19 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/lmTOTvHJe2M" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 19: Yoga Video for Beginners</p>
+                        <p>Duration: 28:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video 21 -->
+                <div class="video-container animate__animated animate__fadeIn">
+                    <iframe src="https://www.youtube.com/embed/OoI9wszGiys" frameborder="0" allowfullscreen></iframe>
+                    <div class="video-details">
+                        <p>Day 21: Yoga Video for Beginners</p>
+                        <p>Duration: 30:00</p>
+                        <p>Description: This is a beginner yoga video.</p>
+                        <div class="star-rating">
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9733;</i>
+                            <i>&#9734;</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <section class="video-gallery">
+             <h1 class="animate__animated animate__fadeInDown">21-Day Breathing Techniques Program</h1>
+                <div class="videos-grid">
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/n8E4XbIzCO8?si=t2XWgHfyvzmsaaei" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 1</h3>
+                    <p>Introduction to Breathing Techniques</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/jBWlZsCNROY?si=08I9cLoBC0RkOlYf" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 2</h3>
+                    <p>Deep Breathing Exercises</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/nlLfDtD3ehI?si=NHEljLO2QjPe6VSU" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 3</h3>
+                    <p>Breathing for Relaxation</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/7C1m-7jCYp0?si=wyca9Mha_tuEzk84" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 4</h3>
+                    <p>Breathing for Focus</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/XIv-2Kxzy04?si=p8yFSl6HbTlRRaf9" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 5</h3>
+                    <p>Breathing for Stress Relief</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/ykA0S3FeDnw?si=M-8NZ5gedWX5Myj" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 6</h3>
+                    <p>Morning Breathing Exercises</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/K_TUDPnLhX0?si=cVhTSJ-8PykTeqMc" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 7</h3>
+                    <p>Evening Breathing Techniques</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/jvanwAFnmg0?si=hlm6FSi728WCmmXC" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 8</h3>
+                    <p>Breathing for Energy</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/vS4lghV9Auk?si=dwL63ydPIo-YAD1j" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 9</h3>
+                    <p>Breathing for Mindfulness</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/6SKdxzOULb8?si=ZqbhnuC1HWAF7RG9" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 10</h3>
+                    <p>Advanced Breathing Techniques</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/n8nsiIjbw5E?si=EpSRJvYWOujxBZx1" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 11</h3>
+                    <p>Breathing for Sleep</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/9QzyGBACZqY?si=MY3JmJXXE4Y6yQ0Y" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 12</h3>
+                    <p>Breathing for Anxiety</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/AEZfPHVhg1Q?si=uDzBTC1VjGn35W_X" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 13</h3>
+                    <p>Breathing for Depression</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/XLf67jTIYec?si=43ZxXoZggSVtc1be" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 14</h3>
+                    <p>Breathing for Clarity</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/QhNA0rfF4GY?si=L2KmYH-9t4GApRJK" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 15</h3>
+                    <p>Breathing for Balance</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/MytJK4T668Y?si=MKVn1l-aNH-tEdtX" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 16</h3>
+                    <p>Breathing for Strength</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/aL-BxdXWgSc?si=KTDYDUYMY27aLmHR" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 17</h3>
+                    <p>Breathing for Flexibility</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/MJYfnlyQNYo?si=0tr6CUPxIcYpnwLV" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 18</h3>
+                    <p>Breathing for Endurance</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/IRozx84cufY?si=fA52U8Q5fkyu_UgS" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 19</h3>
+                    <p>Breathing for Vitality</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/8fmDI2vUg0E?si=v6bP9gbRt_B9JcSF" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 20</h3>
+                    <p>Breathing for Calmness</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="video-item animate__animated animate__fadeInUp">
+                    <iframe src="https://www.youtube.com/embed/kCHeMmDQo3Y?si=eh_g_0WU57R75JWK" frameborder="0" allowfullscreen></iframe>
+                    <h3>Day 21</h3>
+                    <p>Breathing for Positivity</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+        </section>
+    <section id="about" class="intro-content">
+        <h2>About Yoga Hub</h2>
+        <p>At Yoga Hub, we aim to spread awareness about the transformative power of yoga. Our mission is to help you to achieve balance, strength, and inner peace through mindful practice. Whether you are a beginner or an experienced yogi, we have resources and classes to support your journey.</p>
+        <h3>Benefits of Yoga</h3>
+        <ul>
+            <li>Improves flexibility and strength</li>
+            <li>Reduces stress and promotes relaxation</li>
+            <li>Enhances mental clarity and focus</li>
+            <li>Boosts overall health and well-being</li>
+        </ul>
+    </section>
+
+    <section id="mission" class="about-us">
+        <h2>Mission Statement</h2>
+        <p>Our mission is to inspire and empower individuals to achieve holistic well-being through the practice of yoga.</p>
+        <h3>Our Story</h3>
+        <p>Yoga Hub was founded by a group of passionate yogis who experienced the transformative power of yoga in their own lives. We are dedicated to sharing this gift with the world.</p>
+        <h3>Meet the Team</h3>
+        <div class="team">
+            <div class="team-member">
+                <img src="team1.jpg" alt="Instructor 1">
+                <h4>Instructor 1</h4>
+                <p>Experienced in Hatha and Vinyasa yoga, Instructor 1 brings a wealth of knowledge and a calming presence to each class.</p>
+            </div>
+            <div class="team-member">
+                <img src="team2.jpg" alt="Instructor 2">
+                <h4>Instructor 2</h4>
+                <p>Specializing in Ashtanga and Bikram yoga, Instructor 2 inspires students with their dynamic teaching style.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script1.js"></script>
+</body>
+</html>
+

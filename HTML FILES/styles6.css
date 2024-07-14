@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+header {
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0rem;
+    background: rgba(0, 0, 0, 0.0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-buttons {
+    display:flex;
+    gap: 0.5rem;
+}
+
+.nav-button {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    background: #e95f2d;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.nav-button:hover {
+    background: #891703;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: #ed4f00;
+    color: rgb(220, 216, 216);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.asana-labs-section {
+    padding: 20px;
+}
+
+.asana-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.asana-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.asana-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.asana-item h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.asana-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.asana-item ul {
+    list-style-type: disc;
+    margin: 10px 0 0 20px;
+    padding: 0;
+    text-align: left;
+}
+
+.asana-item ul li {
+    font-size: 14px;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+canvas {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    background-color: #222;
+}
